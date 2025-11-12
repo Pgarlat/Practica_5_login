@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         bContinuar = findViewById(R.id.bContinuar);
         sRecordar = findViewById(R.id.sRecordar);
         tvMensaje = findViewById(R.id.tvMensaje);
-
+        
 
         bContinuar.setOnClickListener(v -> {
             String correo = tCorreo.getText().toString();
